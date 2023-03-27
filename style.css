@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h1/* li.h1.ol...{} permet de modifier ce que l'on souhaite */{background-color/* definir un fond  */: black/* couleur  */;border-radius/* permet dde modifier les bords */: 50px;/* px definit la taille des bords */
+
+    text-align/* permet de choisir ou mettre un texte(centre.droite.gauche...) */: center;font-family/* modifie la police */: 'Press Start 2P';color/* modifie la couleur */: white;
+}
+h2{background: linear-gradient(to right,white,blue)/* met un degradé */;border-radius: 20px 0 20px 0;
+}
+
+:any-link {color: black;}
+
+em {color: #168314d6;}
+
+body {
+    background: url("images/BG.jpg") fixed;/* definit une image en fond d'ecran */
+background-size: cover;/* modifie la taille */
+background-position: center;/* modifie la position */
+background-repeat: no-repeat;/* dit de repeter ou non le fond */
+}
+
+li {
+    list-style: none;/* modifie le style de la liste */
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: solid 2px green;/* modifie la couleur des bords*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol {
+    border: solid 5px green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+ol {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
